@@ -7,18 +7,18 @@
 </template>
 
 <script>
-import Prism from 'prismjs';
-import 'prismjs/themes/prism-okaidia.css'
+  import Prism from 'prismjs';
+  import 'prismjs/themes/prism-okaidia.css';
 
   export default {
     props: {
-      lang: String
+      lang: String,
     },
     data() {
-      return {}
+      return {};
     },
     mounted() {
       Prism.highlightAll();
-    }
-  }
+    },
+  };
 </script>
