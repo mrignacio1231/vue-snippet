@@ -1,0 +1,49 @@
+{
+  "name": "vue-snippet",
+  "description": "Insert text snippet with highlighting and Prismjs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Ignacio Del Nardo <ignacioguerra111@gmail.com>",
+  "main": "src/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "prismjs": "^1.6.0",
+    "vue": "^2.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-import-resolver-webpack": "^0.8.1",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-html": "^2.0.3",
+    "eslint-plugin-import": "^2.2.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.9.0",
+    "style-loader": "^0.17.0",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.2.0",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "keywords": [
+    "vue",
+    "prismjs",
+    "syntax",
+    "highlighting",
+    "snippet",
+    "text"
+  ],
+  "readmeFilename": "README.md"
+}
