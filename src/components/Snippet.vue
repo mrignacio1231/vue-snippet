@@ -1,5 +1,5 @@
 <template>
-    <pre :class="lang ? 'language-' + lang : ''">
+    <pre :class="lang ? 'language-' + lang : 'language'">
         <code>
             <slot></slot>
         </code>
