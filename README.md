@@ -8,6 +8,7 @@
 $ npm i vue-snippet --save
 ```
 ```javascript
+import 'vue-snippet/dist/vue-snippet.css';
 import VueSnippet from 'vue-snippet';
 Vue.component('snippet', VueSnippet);
 ```
@@ -20,7 +21,9 @@ Vue.component('snippet', VueSnippet);
 | Prop        | Type    | Default | Description
 |-------------|---------|---------|-------------------------------------------------------------|
 | lang        | String  |         | Language of programming (example: javascript, php)                    
-
+### Languages supported
+ http://prismjs.com/#languages-list
+ 
 ### Contributing
 
 1. Fork it ( https://github.com/mrignacio1231/vue-snippet/fork )
