@@ -1,13 +1,14 @@
 {
   "name": "vue-snippet",
   "description": "Insert text snippet with highlighting and Prismjs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "license": "MIT",
   "author": "Ignacio Del Nardo <ignacioguerra111@gmail.com>",
   "main": "dist/vue-snippet.js",
   "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "prebuild": "eslint --ext .js,.vue src",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "lint": "eslint --ext .js,.vue src"
   },

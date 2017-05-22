@@ -16,11 +16,14 @@ Vue.component('snippet', VueSnippet);
 <snippet lang="css">
 .verde { color:green }
 </snippet>
+
+<snippet lang="javascript" :code="code"></snippet>
 ```
 ### Avaible props
 | Prop        | Type    | Default | Description
 |-------------|---------|---------|-------------------------------------------------------------|
-| lang        | String  |         | Language of programming (example: javascript, php)                    
+| lang        | String  |         | Language of programming (example: javascript, php)
+| code        | String  |         |  Text with the code
 ### Languages supported
  http://prismjs.com/#languages-list
  
